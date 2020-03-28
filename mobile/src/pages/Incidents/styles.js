@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
 
 export default StyleSheet.create({
+  
   container: {
     flex: 1,
     paddingHorizontal: 24,
@@ -9,7 +10,7 @@ export default StyleSheet.create({
   },
 
   header: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
@@ -62,7 +63,7 @@ export default StyleSheet.create({
   },
 
   detailsButton: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
@@ -72,8 +73,5 @@ export default StyleSheet.create({
     fontSize: 15,
     fontWeight: 'bold',
   },
-
-  
-
 
 }); 
